@@ -18,4 +18,4 @@ reach out to our organization admins to raise a problem or ask a question.
 | 🇺🇸 [Chris Kipp](https://github.com/ckipp01)         | open-source@chris-kipp.io |
 | 🇮🇹 [Gabriele Petronella](https://github.com/gabro)  | gabriele@buildo.io        |
 | 🇮🇸 [Olafur Geirsson](https://github.com/olafurpg)   | scalameta@geirsson.com    |
-| 🇵🇱 [Tomasz Godzik](https://github.com/gabro)        | tgodzik@virtuslab.com     |
+| 🇵🇱 [Tomasz Godzik](https://github.com/tgodzik)      | tgodzik@virtuslab.com     |
