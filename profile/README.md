@@ -16,6 +16,6 @@ reach out to our organization admins to raise a problem or ask a question.
 | Organization admin                                  | Contact                   |
 | --------------------------------------------------- | ------------------------- |
 | 🇺🇸 [Chris Kipp](https://github.com/ckipp01)         | open-source@chris-kipp.io |
-| 🇮🇹 [Gabrielle Petronella](https://github.com/gabro) | gabriele@buildo.io        |
+| 🇮🇹 [Gabriele Petronella](https://github.com/gabro)  | gabriele@buildo.io        |
 | 🇮🇸 [Olafur Geirsson](https://github.com/olafurpg)   | scalameta@geirsson.com    |
 | 🇵🇱 [Tomasz Godzik](https://github.com/gabro)        | tgodzik@virtuslab.com     |
