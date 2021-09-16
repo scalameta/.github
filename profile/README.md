@@ -4,7 +4,7 @@ high quality and accessible tooling for Scala developers.
 | Our communication channels                                                                                        |
 | ----------------------------------------------------------------------------------------------------------------- |
 | [Twitter](https://twitter.com/scalameta): for announcements about new Scalameta releases and Scala developer tips |
-| [Discord](https://twitter.com/scalameta): to ask questions and discuss about Scalameta-related projects           |
+| [Discord](https://discord.gg/fWRUgyqKyD): to ask questions and discuss about Scalameta-related projects           |
 
 ## Code of conduct
 
