@@ -1,5 +1,3 @@
-<img align=right src="https://github.com/scalameta.png"/>
-
 Welcome to the Scalameta GitHub organization! Scalameta's mission is to provide
 high quality and accessible tooling for Scala developers.
 
