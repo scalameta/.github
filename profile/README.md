@@ -5,6 +5,7 @@ high quality and accessible tooling for Scala developers.
 | ----------------------------------------------------------------------------------------------------------------- |
 | [Twitter](https://twitter.com/scalameta): for announcements about new Scalameta releases and Scala developer tips |
 | [Discord](https://discord.gg/fWRUgyqKyD): to ask questions and discuss about Scalameta-related projects           |
+| [Matrix](https://matrix.to/#/#scalameta:matrix.org): Matrix bridge home for the Scalameta Discord                 |
 
 ## Code of conduct
 
