@@ -139,3 +139,46 @@ They govern every comment, commit message, pull request body and reply.
   Introduce it with a complete sentence that ends in a colon. Give every item
   the same shape. Number the items only when the order matters. A single item
   is a sentence, not a list.
+
+## Iterate on a design
+
+Unlike the rest of this file, this section is advice, not a rule. If a
+different process works better for you, use it.
+
+An agent's first design is rarely right, because the agent does not see its
+own mistakes. So a change that needs a design choice takes several rounds.
+
+While you work, you may find a bug with a different cause. If the change does
+not make that bug worse, pin it and open an issue. Do not fix it in this
+change: each such fix adds rules to the design, and each new rule adds rounds.
+A case on the path of the problem is not such a bug. It belongs to the fix
+(see "Find the cause and the cases like it").
+
+These steps worked:
+
+1. Write a spec. It states the problem and the constraints. A constraint can
+   be output that must not change, or behaviour that is out of scope. The
+   spec also states the invariants, as sentences that a test can check. Keep
+   it in one document, and add each decision to it with its reason.
+2. Pin the inputs before any design. Cover every construct and every
+   configuration that the change can reach. Each test asserts today's output
+   (see "A bug fix as a proof"). For a language feature, run each input
+   through that language's compiler too: the Scala 3 compiler for a Scala 3
+   feature. Record its output in the spec, beside the input.
+3. Start a new agent session for the design. A new session has no memory of
+   earlier rounds. Give it the spec and the pins, not a design. Let it try
+   its rules on a scratch branch against the tests before it claims an
+   unchanged output.
+4. Start another new session to review the design against the spec and the
+   pins. It reads the code, runs the compiler on new inputs, and reports its
+   findings. It does not design fixes.
+5. Pin the input of every finding. If a finding shows a missing constraint,
+   add the constraint to the spec. Then start the next round with a new
+   design session.
+6. Stop the rounds when a review finds no bug.
+7. Implement the design, and let a new session review the code. Pin the
+   input of each finding. If a finding shows that the design is wrong, return
+   to step 3.
+
+If each round adds one more special case, look for the general rule that the
+code already has.
